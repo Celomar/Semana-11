@@ -1,0 +1,101 @@
+.row  {
+  display: flex;
+}
+body {
+	background-color: violet;
+	background-image: url("http://i.magaimg.net/img/veq.png");
+	font-family: verdana;
+}
+nav {
+    background-color: #333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+nav a {
+    
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    background-color: #33CC99;
+    color: black;
+
+}
+
+.wrapper {
+	display: flex;
+	margin:20px;
+}
+
+.column1, .column2 {
+	margin: 10px;
+	flex: 1;
+  border:1px solid red;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+h1 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#navlist{
+	color:blue;
+
+
+}
+ul{
+	align-items: center;
+	color: white;
+}
+
+.row div img {
+  border-radius: 10%;
+  width: 150px;
+}
+
+#title {
+	font-size: 40px;
+	font-weight:bold;
+}
+.row {
+  display: flex;
+  
+}
+
+#title {
+	font-size: 30px;
+	align-content: center;
+	font-weight: bold;
+	color: white;
+	font-family: "verdana";
+}
+
+.column-1, .column-2 {
+  flex: 1;
+  border:1px solid red;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+.row div img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 15px;
+}

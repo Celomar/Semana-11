@@ -1,0 +1,171 @@
+body {
+    font-family: Verdana;
+    margin: 0;
+    font-family: verdana;
+}
+
+
+header {
+    padding: 50px;
+    text-align: center;
+    background: purple;
+    color: white;
+}
+
+.title {
+    font-size: 60px;
+
+}
+
+.sub {
+    font-weight: bold;
+    font-size: 65px;
+}
+
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+nav a {
+    
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    background-color: #33CC99;
+    color: black;
+}
+
+
+.h2 {
+    display: flex;
+    justify-content: flex-start;
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    color: #EE2C25;
+}
+
+   h2 {
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    color: #606060;
+
+}
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.side {
+    flex: 50%;
+    background-color: #ADD9D1;
+    padding: 20px;
+}
+
+.off {
+    display: flex;
+    text-align: center;
+    justify-content: bottom;
+    justify-content: center;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #1D858C;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+
+   a:hover {
+    color: white;
+    opacity: 30%;
+}
+
+.p {
+    display: flex;
+    text-align: center;
+    justify-content: bottom;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+
+}
+
+.main {
+    flex: 50%;
+    background-color: #81CAB2;
+    padding: 20px;
+    width: 10%;
+    height: 10%;
+}
+
+.img1 {
+    padding: 10px;
+    padding-left: 130px;
+
+}
+
+
+.row2 {  
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.side2 {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.img2 {
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 110px;
+}
+
+
+.main2 {
+    flex: 50%;
+    background-color: #C1E288;
+    padding: 20px;
+}
+
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+    
+
+
+.footer a:hover {
+    color: white;
+    padding: 14px 20px;
+    
+}
+
+.footer a {
+    text-decoration: none;
+    color: gray;
+}

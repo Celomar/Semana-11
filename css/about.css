@@ -1,0 +1,96 @@
+.row  {
+  display: flex;
+}
+body {
+	background-color: violet;
+	background-image: url("http://i.magaimg.net/img/veq.png");
+	font-family: verdana;
+}
+
+.wrapper {
+	display: flex;
+	margin:20px;
+}
+
+.column1, .column2 {
+	margin: 10px;
+	flex: 1;
+  border:1px solid red;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+
+.caja1, .caja2{
+	margin: 10px; 
+}
+.caja1 img {
+	width: 40%;
+	border-radius: 90%;
+	text-align: center;
+ }
+ .caja2 img {
+ 	border-radius: 90%;
+ 	width: 40%;
+ 	height: auto;}
+ 
+h1 {
+	font-weight: bold;
+	font-size: 20px;
+}
+#title {
+	font-size: 30px;
+	align-content: center;
+	font-weight: bold;
+	color: white;
+	font-family: "verdana";}
+
+.vid-1, .vid-2, .vid-3 {
+  flex: 1;
+  border:1px solid red;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+nav {
+    background-color: #333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+nav a {
+    
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    background-color: #33CC99;
+    color: black;
+
+#navlist{
+	color:blue;
+
+
+}
+ul{
+	align-items: center;
+	color: white;
+}
+
+.row div img {
+  border-radius: 10%;
+  width: 150px;
+}
+
+#title {
+	font-size: 40px;
+	font-weight:bold;
+}
